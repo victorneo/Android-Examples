@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:stretchColumns="1">
+
+
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/accelerometer_label"
+
+            android:layout_column="1"
+
+            android:text="Accelerometer"
+
+            android:textSize="9pt"
+
+            android:padding="3dip" />
+
+    </TableRow>
+
+   
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/accel_x_label"
+
+            android:layout_column="1"
+
+            android:text="X:"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+        <TextView
+
+            android:id="@+id/accel_x_value"
+
+            android:gravity="right"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/accel_y_label"
+
+            android:layout_column="1"
+
+            android:text="Y:"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+        <TextView
+
+            android:id="@+id/accel_y_value"
+
+            android:gravity="right"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/accel_z_label"
+
+            android:layout_column="1"
+
+            android:text="Z:"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+        <TextView
+
+            android:id="@+id/accel_z_value"
+
+            android:gravity="right"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+    </TableRow>
+
+
+
+    <View
+
+        android:layout_height="2dip"
+
+        android:background="#FF909090" />
+
+       
+
+ <TableRow>
+
+        <TextView
+
+            android:id="@+id/orientation_label"
+
+            android:layout_column="1"
+
+            android:text="Orientation"
+
+            android:textSize="9pt"
+
+            android:padding="3dip" />
+
+    </TableRow>
+
+   
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/orient_x_label"
+
+            android:layout_column="1"
+
+            android:text="Azimuth :"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+        <TextView
+
+            android:id="@+id/orient_x_value"
+
+            android:gravity="right"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/orient_y_label"
+
+            android:layout_column="1"
+
+            android:text="Pitch:"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+        <TextView
+
+            android:id="@+id/orient_y_value"
+
+            android:gravity="right"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+    </TableRow>
+
+
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/orient_z_label"
+
+            android:layout_column="1"
+
+            android:text="Roll:"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+        <TextView
+
+            android:id="@+id/orient_z_value"
+
+            android:gravity="right"
+
+            android:textSize="8pt"
+
+            android:padding="3dip" />
+
+    </TableRow>
+
+
+
+</TableLayout>

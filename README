@@ -1,0 +1,32 @@
+This repository consists of Android Code Examples (in the form of Eclipse projects).
+
+To use them, you need to have the following:
+ - Eclipse Galileo or newer versions
+ - Android SDK (latest, see further instructions below)
+ - Java JDK, preferably 1.6 or above.
+
+Installing Android SDK
+    First, grab the SDK by downloading it over at:
+    http://developer.android.com/sdk/index.html
+    
+    Next, follow the instructions at:
+    http://developer.android.com/sdk/installing.html
+    to install the ADT (Android Development Toolkit) plugin for Eclipse and 
+    installing additional packages (see Step 4 at the SDK Installation guide).
+    
+    For the Android Repository, you need to install all of them except for the 
+    Documentation / Samples.
+    Install Google Inc. add ons for Third Party add ons as well.
+    
+Creating a AVD (Android Virtual Device)
+    Follow the instructions at:
+    http://developer.android.com/guide/developing/devices/index.html
+    
+    The AVD is a virtual Android device that runs on your computer, allowing you to debug 
+    and experiment with your Android program.
+    
+You are now ready to open the Eclipse projects and explore the example projects.
+You may notice the lack of any documentation or whatsoever for them - I am adding them 
+over time. Do check back later if you require a much more detailed example project. 
+
+The adventurous should start with the HelloWorld app, followed by the ContactManager app.

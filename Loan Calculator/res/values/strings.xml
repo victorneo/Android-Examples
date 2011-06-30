@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LoanCalculatorActivity!</string>
+    <string name="app_name">Loan Calculator</string>
+    <string name="amountString">Amount:</string>
+    <string name="interestRateString">Interest Rate:</string>
+    <string name="loanPeriodString">Load Period:</string>
+    <string name="monthlyInstallmentString">Monthly Installment:</string>
+    <string name="toBeCalculatedString">To Be Calculated</string>
+    <string name="calculateString">Calculate</string>
+    <string-array name="interest_rate_array">
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>2.0</item>
+        <item>2.5</item>
+    </string-array>
+    <string-array name="period_array">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>

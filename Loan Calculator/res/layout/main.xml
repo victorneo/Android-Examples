@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableLayout_Form" android:stretchColumns="1">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:clickable="false" android:layout_height="wrap_content" android:text="@string/amountString" android:layout_width="wrap_content" android:gravity="right" android:id="@+id/amountTextView"></TextView>
+            <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/amountEditText"></EditText>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow2">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/interestRateString" android:layout_gravity="right|center_vertical" android:id="@+id/interestRateTextView"></TextView>
+            <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/interestSpinner"></Spinner>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow3">
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/loanPeriodString" android:layout_gravity="right|center_vertical" android:id="@+id/loadPeriodTextView"></TextView>
+            <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/periodSpinner"></Spinner>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/tableRow4">
+            <TextView android:layout_height="wrap_content" android:text="@string/monthlyInstallmentString" android:layout_width="wrap_content" android:id="@+id/monthlyInstallmentTextView"></TextView>
+            <TextView android:layout_height="wrap_content" android:text="@string/toBeCalculatedString" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/toBeCalculatedTextView"></TextView>
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout1">
+        <Button android:text="@string/calculateString" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/calculatorButton"></Button>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/linearLayout2">
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="1" android:text="Save Settings" android:id="@+id/buttonSave"></Button>
+        <Button android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="wrap_content" android:text="Load Settings" android:id="@+id/buttonLoad"></Button>
+    </LinearLayout>
+</LinearLayout>
